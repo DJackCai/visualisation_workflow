@@ -4,3 +4,6 @@ Visualisation or graphical data analysis has been a long established topic in st
 However, most courses offering guidance on data visualisation only focus on particular data type, while there is increasing tendency from analysing traditional cross-sectional data to high-dimensional data, time series data, spatial/geospatial data and spatio-temporal data (netcdf) data.
 This repo aims to summarise how we can come about analysing different data types graphically and produce visually appealing graphs in a more efficient way in R, using different packages, functions and graphic set-up schemes.
 In other words, the repo does not focus on creating new features or packages for visualisation, but just provides a workbook that can be referred to from time to time. 
+
+Updates
+- Choropleth_md: showing how to manipulate spatial data and fit that into the ggplot to allow choropleth mapping like in GIS
