@@ -8,3 +8,4 @@ In other words, the repo does not focus on creating new features or packages for
 Updates
 - Choropleth_md: showing how to manipulate spatial data and fit that into the ggplot to allow choropleth mapping like in GIS
 - RasterAnalysisFromNetcdf: guidelines of extracting information from NETCDF data and conduct raster analysis for visualisation
+- RasterMapping: Trend map construction with more elegant legend and colour scheme 
