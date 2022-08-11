@@ -1,3 +1,5 @@
+## useful reference: https://rpubs.com/huanfaChen/ggplotShapefile
+
 ## read shapefile 
 statebord<-shapefile("StateBoundaries.shp")
 
