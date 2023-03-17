@@ -23,3 +23,9 @@ BA_r2_agg = raster::resample(BA_r2, SEA_template, method = "ngb")
 
 BA_SEA_agg_df = as.data.frame(BA_r2_agg,xy = TRUE )
 
+ #### filter NA value in the data frame ###
+ BA_SEA_sub = BA_SEA_df %>% rename(burnt = spring.summer_2019.2020, lon = x, lat = y) %>%
+                filter(!is.na(burnt))
+ 
+ BA_SEA_agg_sub = BA_SEA_agg_df %>% rename(burnt = spring.summer_2019.2020, lon = x, lat = y) %>%
+   filter(!is.na(burnt))
